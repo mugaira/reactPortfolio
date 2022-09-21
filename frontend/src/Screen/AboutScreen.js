@@ -1,13 +1,9 @@
 import {
  Flex,
- Box,
  Text,
  Heading,
- Link,
- Icon,
  Image,
  List,
- OrderedList,
  ListItem,
 } from '@chakra-ui/react';
 import {
@@ -23,10 +19,9 @@ import {
  SiChakraui,
  SiVisualstudiocode,
  SiPostman,
- SiFigma,
 } from 'react-icons/si';
 import { AiFillGithub } from 'react-icons/ai';
-// import { Card } from '../components/Card';
+import { Card } from '../components/Card';
 // import GitHubCalendar from 'react-github-calendar';
 
 const AboutScreen = () => {
@@ -44,7 +39,6 @@ const AboutScreen = () => {
  const tools = [
   { skill: 'VsCode', ic: SiVisualstudiocode },
   { skill: 'PostMan', ic: SiPostman },
-  { skill: 'Figma', ic: SiFigma },
   { skill: 'Git', ic: AiFillGithub },
  ];
  return (
@@ -215,9 +209,9 @@ const AboutScreen = () => {
        </ListItem>
       </List>
      </Flex>
-     <Flex>
-
-     </Flex>
+     
+     <Image mx="10" src="about.svg" w="300px" h="300px" />
+    
     </Flex>
 
     <Flex
@@ -244,7 +238,7 @@ const AboutScreen = () => {
        Skillset
       </span>
      </Heading>
-     {/* <Flex
+     <Flex
       p='10'
       direction='row'
       justifyContent='center'
@@ -254,7 +248,7 @@ const AboutScreen = () => {
       {skill.map((item) => (
        <Card ic={item.ic}>{item.skill}</Card>
       ))}
-     </Flex> */}
+     </Flex>
     </Flex>
 
     <Flex
@@ -281,7 +275,7 @@ const AboutScreen = () => {
        I Use
       </span>
      </Heading>
-     {/* <Flex
+     <Flex
       p='10'
       direction='row'
       justifyContent='center'
@@ -291,7 +285,7 @@ const AboutScreen = () => {
       {tools.map((item) => (
        <Card ic={item.ic}>{item.skill}</Card>
       ))}
-     </Flex> */}
+     </Flex>
     </Flex>
 
     <Flex
