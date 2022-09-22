@@ -22,7 +22,8 @@ import {
 } from 'react-icons/si';
 import { AiFillGithub } from 'react-icons/ai';
 import { Card } from '../components/Card';
-// import GitHubCalendar from 'react-github-calendar';
+import GitHubCalendar from 'react-github-calendar';
+import Particle from '../components/Particle';
 
 const AboutScreen = () => {
  const skill = [
@@ -44,6 +45,7 @@ const AboutScreen = () => {
  return (
   <>
 
+   <Particle />
    <Flex
     w='full'
     mt='85px'
@@ -209,9 +211,9 @@ const AboutScreen = () => {
        </ListItem>
       </List>
      </Flex>
-     
+
      <Image mx="10" src="about.svg" w="300px" h="300px" />
-    
+
     </Flex>
 
     <Flex
@@ -320,12 +322,12 @@ const AboutScreen = () => {
       gap='20'
       backdropFilter='saturate(180%) blur(10px)'
      >
-      {/* <GitHubCalendar
-       username='ssaboorr'
+      <GitHubCalendar
+       username='mugaira'
        blockSize={15}
        blockMargin={5}
        fontSize={16}
-      /> */}
+      />
      </Flex>
     </Flex>
    </Flex>
