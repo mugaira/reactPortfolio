@@ -60,7 +60,7 @@ const HeroTwo = () => {
        I am fluent
        <span
         style={{
-         color: "purple",
+         color: "teal",
          fontWeight: "bold",
          marginLeft: "4px",
          marginRight: "4px",
@@ -89,7 +89,7 @@ const HeroTwo = () => {
        <br />
        <span
         style={{
-         color: "purple",
+         color: "teal",
          fontWeight: "bold",
          marginLeft: "4px",
          marginRight: "4px",
@@ -100,7 +100,7 @@ const HeroTwo = () => {
        and
        <span
         style={{
-         color: "purple",
+         color: "teal",
          fontWeight: "bold",
          marginLeft: "4px",
         }}
@@ -112,7 +112,7 @@ const HeroTwo = () => {
        and
        <span
         style={{
-         color: "purple",
+         color: "teal",
          fontWeight: "bold",
          marginLeft: "4px",
         }}

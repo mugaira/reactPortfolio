@@ -1,11 +1,9 @@
 import Particles from "react-tsparticles";
 import {useColorMode} from '@chakra-ui/react';
-// import { useSelector } from "react-redux";
 
 const Particle = () => {
- // const { color } = useSelector((state) => state.colorMode);
+
  const { colorMode } = useColorMode();
- // sudo systemctl restart mongod
 
 
  let particleColor;

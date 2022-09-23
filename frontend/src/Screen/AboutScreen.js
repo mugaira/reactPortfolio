@@ -79,7 +79,7 @@ const AboutScreen = () => {
        Know who
        <span
         style={{
-         color: 'black',
+         color: 'teal',
          fontWeight: 'bold',
          marginLeft: '4px',
          marginRight: '4px',
@@ -97,7 +97,7 @@ const AboutScreen = () => {
        Hello every one, I am{' '}
        <span
         style={{
-         color: 'black',
+         color: 'teal',
          fontWeight: 'bold',
          marginLeft: '4px',
          marginRight: '4px',
@@ -116,7 +116,7 @@ const AboutScreen = () => {
        I completed my{' '}
        <span
         style={{
-         color: 'black',
+         color: 'teal',
          fontWeight: 'bold',
          marginLeft: '4px',
          marginRight: '4px',
@@ -136,7 +136,7 @@ const AboutScreen = () => {
        <br /> i am fluent in{' '}
        <span
         style={{
-         color: 'black',
+         color: 'teal',
          fontWeight: 'bold',
          marginLeft: '4px',
          marginRight: '4px',
@@ -147,7 +147,7 @@ const AboutScreen = () => {
        and in{' '}
        <span
         style={{
-         color: 'black',
+         color: 'teal',
          fontWeight: 'bold',
          marginLeft: '4px',
          marginRight: '4px',
@@ -166,7 +166,7 @@ const AboutScreen = () => {
        I did an offline Course in{' '}
        <span
         style={{
-         color: 'black',
+         color: 'teal',
          fontWeight: 'bold',
          marginLeft: '4px',
          marginRight: '4px',
@@ -230,7 +230,7 @@ const AboutScreen = () => {
       Professional{' '}
       <span
        style={{
-        color: 'black',
+        color: 'teal',
         fontWeight: 'bold',
         marginLeft: '4px',
         marginRight: '4px',
@@ -267,7 +267,7 @@ const AboutScreen = () => {
       Tools{' '}
       <span
        style={{
-        color: 'black',
+        color: 'teal',
         fontWeight: 'bold',
         marginLeft: '4px',
         marginRight: '4px',
@@ -304,7 +304,7 @@ const AboutScreen = () => {
       Days{' '}
       <span
        style={{
-        color: 'black',
+        color: 'teal',
         fontWeight: 'bold',
         marginLeft: '4px',
         marginRight: '4px',
