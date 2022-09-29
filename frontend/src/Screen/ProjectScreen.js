@@ -11,7 +11,7 @@ const ProjectsScreen = () => {
     direction="column"
     justifyContent="center"
     alignItems="center"
-    mt="50px"
+    mt="80px"
     py="10"
     zIndex="100"
    >
@@ -30,18 +30,18 @@ const ProjectsScreen = () => {
      </Heading>
     </Flex>
     <Flex direction="row" justifyContent="center" wrap="wrap">
-     {/* <ProjectCard
-      source="https://pokemonviewer.netlify.app/"
-      git="https://github.com/ssaboorr/Pokemon-viewer"
-      src="pokemon.png"
-      desc="The App is Built in Vanilla Javascript. It Displays all the Pokemons available till date wiht the help of Poke Api."
+     <ProjectCard
+      source="https://hoodiehub.herokuapp.com/"
+      git="https://github.com/mugaira/reactEcommerce"
+      src="HoodieHub.png"
+      desc="This is a Full Stack Javascript web App for ecommerce store "
      />
      <ProjectCard
-      source="https://shopeasy-react.herokuapp.com/"
-      git="https://github.com/ssaboorr/ShopEasy-React"
-      src="shopeasy.png"
-      desc="This is a Full Stack Javascript web App for ecommerce store "
-     />{" "} */}
+
+      git="https://github.com/mugaira/Blackjack_game"
+      src="blackjack.png"
+      desc="The Game-App is Built in Vanilla Javascript."
+     />{" "}
 
     </Flex>
    </Flex>

@@ -46,8 +46,8 @@ export const ProjectCard = ({ desc, git, source, src }) => {
    >
     <Image
      my="8"
-     w={{ lg: "500px", base: "200px" }}
-     h={{ lg: "200px", base: "100px" }}
+     w={{ lg: "500px", base: "300px" }}
+     h={{ lg: "200px", base: "200px" }}
      objectFit="cover"
      src={src}
     />

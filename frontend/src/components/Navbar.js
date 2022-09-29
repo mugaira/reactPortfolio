@@ -82,7 +82,7 @@ const Navbar = () => {
 						spacing={7}
 					>
 						<Button onClick={toggleColorMode}>
-							{colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+							{colorMode === 'dark' ?  <SunIcon /> : <MoonIcon />}
 						</Button>
 					</Stack>
 				</Flex>
